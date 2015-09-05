@@ -1,0 +1,28 @@
+{
+  "name": "amazon-pricecheck",
+  "version": "0.0.2",
+  "description": "Node module for checking real product prices accross amazon sites and vendors.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/klmdb/amazon"
+  },
+  "author": "klmdb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klmdb/amazon/issues"
+  },
+  "homepage": "https://github.com/klmdb/amazon",
+  "dependencies": {
+    "async": "^1.4.2",
+    "bluebird": "^2.9.34",
+    "cheerio": "^0.19.0",
+    "fs-extra": "^0.24.0",
+    "progress-notifier": "^0.2.2",
+    "request": "^2.61.0",
+    "validate.io": "^1.5.0"
+  }
+}
